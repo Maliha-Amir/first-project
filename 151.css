@@ -1,0 +1,64 @@
+.pictures {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.picture-item {
+    text-align: center;
+    margin: 20px;
+    width: calc(33.33% - 40px); /* Adjusted width for three items per row with margins */
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+}
+
+.picture-item img {
+    width: 100%; /* Ensure each image takes up the full width of its container */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 8px; /* Add rounded corners */
+    transition: transform 0.3s ease-in-out; /* Smooth transition for zoom effect */
+}
+
+.picture-item:hover img {
+    transform: scale(1.2); /* Zoom in on hover */
+}
+/* Optional: Add a zoom out effect on click */
+.picture-item img.zoom-out {
+    transform: scale(0.8); /* Zoom out */
+}
+
+.picture-item h1 {
+    font-size: 20px; /* Adjust the font size of the product name */
+    margin: 10px 0; /* Add margin above and below the product name */
+}
+
+.picture-item h4 {
+    font-size: 16px; /* Adjust the font size of the price and availability */
+    margin: 0; /* Remove default margin */
+}
+
+.add-to-cart {
+    background-color: #ff5f5f;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px; /* Add margin to separate the button from the description */
+}
+
+.add-to-cart:hover {
+    background-color: green;
+}
+
+@media (max-width: 992px) {
+    .picture-item {
+        width: calc(50% - 40px); /* Adjusted width for two items per row with margins */
+    }
+}
+
+@media (max-width: 768px) {
+    .picture-item {
+        width: calc(100% - 40px); /* Adjusted width for one item per row with margins */
+    }
+}

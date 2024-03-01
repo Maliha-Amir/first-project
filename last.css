@@ -1,0 +1,210 @@
+#header2{
+    height: 130px;
+    width: 1500px;
+    border: 2px solid white;
+    background-color: red;
+    padding-left: 20px;
+    position: fixed;
+}
+ #space{
+    margin-top: 20px;
+    height: 80px;
+    width: 200px;
+    display: inline;
+} 
+#logo{
+    margin-top: 20px;
+    margin-left: 50px;
+    height: 80px;
+    width: 200px;
+    display: inline;
+}
+#icon2{
+    padding-left: 350px;
+    font-size: xx-large;
+}
+#bar{
+    margin-left: 300px;
+    height: 40px;
+    width: 500px;
+    border-radius: 20px;  
+}
+#span5{
+    padding-right: 380px;
+}
+#div{
+    display: flex;
+}
+#side{
+    margin-top: 20px;
+    margin-left: 40px;
+    height: 400px;
+    width: 400px;
+    border-radius: 20px;
+    border: 2px solid black;
+}
+#new{
+    margin-top: 150px;
+    margin-left: 40px;
+    height: 100px;
+    width: 900px;
+    border: 2px solid black;
+    border-radius: 20px;
+}
+#para{
+    padding-left: 300px;
+    padding-top: 25px;
+    font-size:large;
+    color: blue;
+}
+#div2{
+    margin-top: 20px;
+    margin-left: 40px;
+    border-radius: 20px;
+    height: 400px;
+    width: 900px;
+    border: 2px solid black;
+}
+.image{
+    margin: 15px;
+    height: 100px;
+    width: 100px;
+}
+#div3{
+    display: inline;
+    height: 300px;
+    width: 900px;
+    display: inline;
+}
+#para2{
+    display: inline;
+}
+#para3{
+    padding-left: 180px;
+}
+#span1{
+padding-left: 100px;
+color: orangered;
+}
+#span2{
+    padding-left: 150px;    
+}
+#discount{
+        padding-left: 30px;
+        text-decoration: line-through;
+}
+#para4{
+    padding-left: 180px;
+    color: orangered;   
+}
+#span3{
+    color: blue;
+}
+#but{
+    margin-top: 20px;
+    margin-left: 20px;
+    height: 70px;
+    width: 250px;
+    border-radius: 10px;
+    display: block;
+}
+#butt{
+    margin-top: 20px;
+    margin-left: 20px;
+    height: 70px;
+    width: 500px;
+    border-radius: 10px;
+}
+#span4{
+    padding-left: 300px;
+}
+#outer{
+    background-color:  red;
+    margin-top: 20px;
+    height: 600px;
+    width: 1450px;
+    border: 2px solid white;
+    display: flex;
+}
+.inner{
+    background-color: white;
+    margin: 20px;
+    height: 500px;
+    width: 300px;
+    border: 2px solid white; 
+}
+#h1{
+    padding-left: 20px;
+    color: orangered;
+}
+.raw:hover{
+    text-decoration:underline ;
+}
+.raw{
+    padding-left: 20px;
+}
+#h2{
+    padding: 10px;
+}
+#h3{
+    padding-top: 30px;
+    padding-left: 10px;
+    color: orangered;
+}
+.h4{
+    padding-left: 10px;
+}
+.span7{
+    padding-left: 230px;
+    color: orangered;
+}
+#para5{
+    padding-left: 10px;
+}
+#span6{
+    padding-left: 100px;
+}
+#button{
+    height: 35px;
+    width: 350px;
+  background-color: orangered;
+}
+@media(min-width:400px) and (max-width:800px){
+    #header,
+    #new{
+        height: 80px;
+        width: 500px;
+    }
+    #space{
+        height: 40px;
+        width: 100px;
+    }
+    #div{
+        flex-direction: column;
+
+    }
+    #div2{
+        height: 500px;
+        width: 500px;
+    }
+    #outer{
+        flex-direction: column;
+    }
+    #para{
+        padding-left: 30px;
+        padding-top: 5px;
+    }
+    #bar{
+        margin-left: 40px;
+        height: 30px;
+        width: 200px;
+    }
+    #icon2{
+        padding-left: 30px;
+        font-size: xx-large;
+    }
+    #butt{
+        height: 60px;
+        width: 500px;
+    }
+}
